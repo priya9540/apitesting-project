@@ -36,6 +36,8 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured:5.2.0'
     testImplementation 'io.rest-assured:json-schema-validator:4.3.3'
     implementation 'org.json:json:20171018'
+    
+    
 
 
 
@@ -50,6 +52,7 @@ application {
 
 test {
     useTestNG() {
+        suites 'src/test/resources/qtrip.xml'
         useDefaultListeners = true // generates the test report
     }
      afterSuite { desc, result ->
