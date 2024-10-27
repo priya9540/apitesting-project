@@ -40,23 +40,23 @@ public class testCase_API_01 {
         System.out.println(res.getStatusLine());
         Assert.assertEquals(res.getStatusCode(), 201);
 
-    }
-@Test
-    public void login() {
+    
+
+    
         RestAssured.baseURI = "https://content-qtripdynamic-qa-backend.azurewebsites.net";
         RestAssured.basePath = "/api/v1/login";
-        JSONObject obj = new JSONObject();
-        obj.put("email", email);
-        obj.put("password", password);
+        JSONObject obj1 = new JSONObject();
+        obj1.put("email", email);
+        obj1.put("password", password);
         http = RestAssured.given().log().all();
-        Response res = http.contentType("application/json").body(obj.toString()).when().post();
-        System.out.println(res.getStatusCode());
-        System.out.println(res.getStatusLine());
-        token = res.body().jsonPath().getString("data.token");
+        Response resp = http.contentType("application/json").body(obj.toString()).when().post();
+        System.out.println(resp.getStatusCode());
+        System.out.println(resp.getStatusLine());
+        token = resp.body().jsonPath().getString("data.token");
         System.out.println(token);
-         userId=  res.body().jsonPath().getString("data.id");
+         userId=  resp.body().jsonPath().getString("data.id");
         System.out.println(userId);
-        Assert.assertEquals(res.getStatusCode(), 201, "Status code does not match expected value.");
-        Assert.assertTrue(res.body().jsonPath().getBoolean("success"));
-    }
-}
+        Assert.assertEquals(resp.getStatusCode(), 201, "Status code does not match expected value.");
+        Assert.assertTrue(resp.body().jsonPath().getBoolean("success"));
+    
+}}

@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-27T17:26:25 IST" name="APITestSuite" finished-at="2024-10-27T17:26:41 IST" duration-ms="16010">
+  <suite started-at="2024-10-27T17:45:02 IST" name="APITestSuite" finished-at="2024-10-27T17:45:20 IST" duration-ms="17656">
     <groups>
       <group name="API Tests">
-        <method signature="testCase_API_03.TestCase03()[pri:3, instance:qtriptest.APITests.testCase_API_03@3de8f619]" name="TestCase03" class="qtriptest.APITests.testCase_API_03"/>
+        <method signature="testCase_API_03.TestCase03()[pri:3, instance:qtriptest.APITests.testCase_API_03@710636b0]" name="TestCase03" class="qtriptest.APITests.testCase_API_03"/>
       </group> <!-- API Tests -->
     </groups>
-    <test started-at="2024-10-27T17:26:25 IST" name="APITests" finished-at="2024-10-27T17:26:41 IST" duration-ms="16010">
+    <test started-at="2024-10-27T17:45:02 IST" name="APITests" finished-at="2024-10-27T17:45:20 IST" duration-ms="17656">
       <class name="qtriptest.APITests.testCase_API_01">
-        <test-method signature="Register()[pri:0, instance:qtriptest.APITests.testCase_API_01@7d900ecf]" started-at="2024-10-27T17:26:25 IST" name="Register" finished-at="2024-10-27T17:26:29 IST" duration-ms="4414" status="PASS">
+        <test-method signature="Register()[pri:0, instance:qtriptest.APITests.testCase_API_01@5c80cf32]" started-at="2024-10-27T17:45:02 IST" name="Register" finished-at="2024-10-27T17:45:10 IST" duration-ms="7754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method signature="login()[pri:0, instance:qtriptest.APITests.testCase_API_01@7d900ecf]" started-at="2024-10-27T17:26:29 IST" name="login" finished-at="2024-10-27T17:26:31 IST" duration-ms="2260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
       </class> <!-- qtriptest.APITests.testCase_API_01 -->
       <class name="qtriptest.APITests.testCase_API_02">
-        <test-method signature="VerifySearchCity()[pri:0, instance:qtriptest.APITests.testCase_API_02@710636b0]" started-at="2024-10-27T17:26:31 IST" name="VerifySearchCity" finished-at="2024-10-27T17:26:33 IST" duration-ms="1967" status="PASS">
+        <test-method signature="VerifySearchCity()[pri:0, instance:qtriptest.APITests.testCase_API_02@6cb107fd]" started-at="2024-10-27T17:45:10 IST" name="VerifySearchCity" finished-at="2024-10-27T17:45:12 IST" duration-ms="1997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchCity -->
       </class> <!-- qtriptest.APITests.testCase_API_02 -->
       <class name="qtriptest.APITests.testCase_API_03">
-        <test-method signature="TestCase03()[pri:3, instance:qtriptest.APITests.testCase_API_03@3de8f619]" started-at="2024-10-27T17:26:33 IST" name="TestCase03" description="Verify that a reservation can be made using the QTrip API" finished-at="2024-10-27T17:26:38 IST" duration-ms="4863" status="PASS">
+        <test-method signature="TestCase03()[pri:3, instance:qtriptest.APITests.testCase_API_03@710636b0]" started-at="2024-10-27T17:45:12 IST" name="TestCase03" description="Verify that a reservation can be made using the QTrip API" finished-at="2024-10-27T17:45:17 IST" duration-ms="5211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase03 -->
       </class> <!-- qtriptest.APITests.testCase_API_03 -->
       <class name="qtriptest.APITests.testCase_API_04">
-        <test-method signature="testUserRegistration()[pri:0, instance:qtriptest.APITests.testCase_API_04@2ab4bc72]" started-at="2024-10-27T17:26:38 IST" name="testUserRegistration" finished-at="2024-10-27T17:26:41 IST" duration-ms="2392" status="PASS">
+        <test-method signature="testUserRegistration()[pri:0, instance:qtriptest.APITests.testCase_API_04@3de8f619]" started-at="2024-10-27T17:45:17 IST" name="testUserRegistration" finished-at="2024-10-27T17:45:20 IST" duration-ms="2409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
